@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "complete-the-cycle",
+	"version": "${version}",
+	"name": "Complete The Cycle",
+	"description": "A Mod that balances Minecraft perfectly.",
+	"authors": [
+		"wet_noodles90"
+	],
+	"contact": {
+		"homepage": "https://modrinth.com/complete-the-cycle",
+		"sources": "https://github.com/wet_noodles90/CompleteTheCycle"
+	},
+	"license": "MIT",
+	"icon": "assets/complete-the-cycle/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.wetnoodles90.CompleteTheCycle"
+		],
+		"client": [
+			"net.wetnoodles90.CompleteTheCycleClient"
+		],
+		"fabric-datagen": [
+			"net.wetnoodles90.CompleteTheCycleDataGenerator"
+		]
+	},
+	"mixins": [
+		"complete-the-cycle.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.13",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
