@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "complete-the-cycle:block/granite_bricks",
+    "side": "complete-the-cycle:block/granite_bricks",
+    "top": "complete-the-cycle:block/granite_bricks"
+  }
+}

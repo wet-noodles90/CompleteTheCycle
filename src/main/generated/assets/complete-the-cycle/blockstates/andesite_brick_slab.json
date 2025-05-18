@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "complete-the-cycle:block/andesite_brick_slab"
+    },
+    "type=double": {
+      "model": "complete-the-cycle:block/andesite_bricks"
+    },
+    "type=top": {
+      "model": "complete-the-cycle:block/andesite_brick_slab_top"
+    }
+  }
+}

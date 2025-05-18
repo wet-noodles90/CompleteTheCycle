@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all": "complete-the-cycle:block/chiseled_andesite"
+  }
+}

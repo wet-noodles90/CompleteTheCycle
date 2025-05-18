@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:granite",
+  "result": {
+    "count": 1,
+    "id": "complete-the-cycle:granite_brick_slab"
+  }
+}
